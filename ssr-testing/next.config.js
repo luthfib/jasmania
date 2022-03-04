@@ -8,12 +8,16 @@ const withMDX = require("@next/mdx")({
   },
 });
 
+const withNextTranspileModules = require("next-transpile-modules")([]);
+
 const nextConfig = {
   pageExtensions: ["jsx", "js", "mdx", "md", "ts", "tsx"],
+  swcMinify: true,
   cssModules: true,
   experimental: {
     externalDir: true,
+    esmExternals: true,
   },
 };
 
-module.exports = withMDX(nextConfig);
+module.exports = withNextTranspileModules(withMDX(nextConfig));

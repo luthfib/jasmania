@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
       "*": ["node_modules/*"],
       "@jasmania/button": ["./packages/button/src"]
