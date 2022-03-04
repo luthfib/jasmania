@@ -1,0 +1,23 @@
+{
+  "name": "jasmania",
+  "version": "2.3.4",
+  "main": "dist/index.js",
+  "module": "esm/index.js",
+  "types": "esm/index.d.ts",
+  "unpkg": "dist/index.min.js",
+  "scripts": {},
+  "license": "MIT",
+  "description": "Modern and minimalist React UI library.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luthfib/jasmania"
+  },
+  "files": [
+    "/dist",
+    "/esm"
+  ],
+  "sideEffects": false,
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}

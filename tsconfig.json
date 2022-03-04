@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "*": ["node_modules/*"],
+      "@jasmania/button": ["./packages/button/src"]
+    }
+  }
+}

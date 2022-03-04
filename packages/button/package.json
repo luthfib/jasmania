@@ -1,0 +1,26 @@
+{
+  "name": "@jasmania/button",
+  "author": "",
+  "version": "0.01",
+  "decription": "a button",
+  "source": "scr/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "directories": {
+    "dist": "dist"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "version": "yarn version"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.10"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}
