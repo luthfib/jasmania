@@ -1,7 +1,7 @@
 {
   "name": "@jasmania/styles",
   "author": "",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "decription": "design system styles",
   "sideEffects": false,
   "files": [
