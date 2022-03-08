@@ -1,7 +1,7 @@
 {
   "name": "@jasmania/styles",
   "author": "",
-  "version": "v0.01",
+  "version": "0.0.1",
   "decription": "design system styles",
   "directories": {
     "dist": "dist"
