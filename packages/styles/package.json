@@ -3,12 +3,9 @@
   "author": "",
   "version": "0.0.2",
   "decription": "design system styles",
-  "directories": {
-    "dist": "dist"
-  },
   "sideEffects": false,
   "files": [
-    "dist"
+    "dist/*.css"
   ],
   "scripts": {
     "clean": "rm -rf dist",
