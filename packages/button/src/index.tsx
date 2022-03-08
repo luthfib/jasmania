@@ -1,4 +1,11 @@
-import React from "react";
-import styles from "./button.module.scss";
+import "./button.module.scss";
 
-export const Button = () => <button className={styles.button}>Hello</button>;
+import React from "react";
+
+interface IButtonProps {
+  classes?: string;
+}
+
+export const Button = ({ classes }: IButtonProps) => (
+  <button className={`${classes} button yellow `}>Hello</button>
+);

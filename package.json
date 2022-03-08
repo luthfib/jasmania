@@ -5,7 +5,11 @@
   "module": "esm/index.js",
   "types": "esm/index.d.ts",
   "unpkg": "dist/index.min.js",
-  "scripts": {},
+  "scripts": {
+    "storybook": "start-storybook -p 9009 --ci",
+    "dev": "pnpm storybook",
+    "build-storybook": "build-storybook"
+  },
   "license": "MIT",
   "description": "Modern and minimalist React UI library.",
   "repository": {
@@ -17,7 +21,15 @@
     "/esm"
   ],
   "sideEffects": false,
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
   "devDependencies": {
+    "@storybook/addon-storysource": "6.4.19",
+    "storybook-addon-sass-postcss": "^0.1.0",
+    "@storybook/react": "6.4.19",
+    "prettier": "^2.0.5",
     "typescript": "^4.6.2"
   }
 }

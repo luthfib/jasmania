@@ -1,0 +1,21 @@
+{
+  "name": "@jasmania/styles",
+  "author": "",
+  "version": "0.01",
+  "decription": "design system styles",
+  "directories": {
+    "dist": "dist"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "version": "yarn version",
+    "build": "node-sass src/ -o dist"
+  },
+  "dependencies": {
+    "node-sass": "7.0.1"
+  }
+}
