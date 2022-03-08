@@ -1,0 +1,62 @@
+:root {
+  /* Box sizing rules */
+  /* Remove default padding */
+  /* Remove default margin */
+  /* Set core body defaults */
+  /* Remove list styles on ul, ol elements */
+  /* A elements that don't have a class get default styles */
+  /* Inherit fonts for inputs and buttons */
+  /* Remove all animations and transitions for people that prefer not to see them */ }
+  :root *,
+  :root *::before,
+  :root *::after {
+    box-sizing: border-box; }
+  :root a {
+    -webkit-tap-highlight-color: transparent; }
+  @media (any-hover: hover) {
+    :root a:hover {
+      -webkit-tap-highlight-color: transparent; } }
+  :root ul[class],
+  :root ol[class] {
+    padding: 0; }
+  :root body,
+  :root h1,
+  :root h2,
+  :root h3,
+  :root h4,
+  :root p,
+  :root ul[class],
+  :root ol[class],
+  :root li,
+  :root figure,
+  :root figcaption,
+  :root blockquote,
+  :root dl,
+  :root dd {
+    margin: 0; }
+  :root html,
+  :root body {
+    padding: 0;
+    margin: 0;
+    height: 100%; }
+  :root body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5; }
+  :root ul,
+  :root ol {
+    list-style: none; }
+  :root a:not([class]) {
+    text-decoration-skip-ink: auto; }
+  :root input,
+  :root button,
+  :root textarea,
+  :root select {
+    font: inherit; }
+  @media (prefers-reduced-motion: reduce) {
+    :root * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important; } }
